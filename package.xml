@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.mendix.com/package/1.0/">
+  <modelerProject xmlns="http://www.mendix.com/modelerProject/1.0/">
+    <module name="MimeTypeChecker" />
+    <projectFile path="project.mpr" />
+    <files>
+      <file path="userlib/commons-io-2.15.1.jar" />
+      <file path="userlib/commons-io-2.15.1.jar.MimeTypeChecker.RequiredLib" />
+      <file path="userlib/slf4j-api-2.0.9.jar" />
+      <file path="userlib/slf4j-api-2.0.9.jar.MimeTypeChecker.RequiredLib" />
+      <file path="userlib/tika-core-2.9.1.jar" />
+      <file path="userlib/tike-core-2.9.1.jar.MimeTypeChecker.RequiredLib" />
+      <file path="javasource/mimetypechecker/actions/GetMimeType.java" />
+      <file path="themesource/mimetypechecker/settings.json" />
+      <file path="themesource/mimetypechecker/native/design-properties.json" />
+      <file path="themesource/mimetypechecker/native/main.js" />
+      <file path="themesource/mimetypechecker/web/design-properties.json" />
+      <file path="themesource/mimetypechecker/web/main.scss" />
+    </files>
+  </modelerProject>
+</package>
