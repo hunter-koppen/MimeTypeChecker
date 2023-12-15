@@ -1,6 +1,6 @@
 ## Mime Type Checker
 
-The **File Upload JS Action** module contains a single Java action that takes a file and will return the Mime Type of the provided file. 
+The **Mime Type Checker** module contains a single Java action that takes a file and will return the Mime Type of the provided file. 
 
 ## Jar Dependencies
 
