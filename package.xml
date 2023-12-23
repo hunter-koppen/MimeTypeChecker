@@ -4,12 +4,6 @@
     <module name="MimeTypeChecker" />
     <projectFile path="project.mpr" />
     <files>
-      <file path="userlib/commons-io-2.15.1.jar" />
-      <file path="userlib/commons-io-2.15.1.jar.MimeTypeChecker.RequiredLib" />
-      <file path="userlib/slf4j-api-2.0.9.jar" />
-      <file path="userlib/slf4j-api-2.0.9.jar.MimeTypeChecker.RequiredLib" />
-      <file path="userlib/tika-core-2.9.1.jar" />
-      <file path="userlib/tike-core-2.9.1.jar.MimeTypeChecker.RequiredLib" />
       <file path="javasource/mimetypechecker/actions/GetMimeType.java" />
       <file path="themesource/mimetypechecker/settings.json" />
       <file path="themesource/mimetypechecker/native/design-properties.json" />

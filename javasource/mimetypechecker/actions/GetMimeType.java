@@ -24,20 +24,24 @@ import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 public class GetMimeType extends CustomJavaAction<java.lang.String>
 {
-	private IMendixObject __File;
-	private system.proxies.FileDocument File;
+	/** @deprecated use File.getMendixObject() instead. */
+	@java.lang.Deprecated(forRemoval = true)
+	private final IMendixObject __File;
+	private final system.proxies.FileDocument File;
 
-	public GetMimeType(IContext context, IMendixObject File)
+	public GetMimeType(
+		IContext context,
+		IMendixObject _file
+	)
 	{
 		super(context);
-		this.__File = File;
+		this.__File = _file;
+		this.File = _file == null ? null : system.proxies.FileDocument.initialize(getContext(), _file);
 	}
 
 	@java.lang.Override
 	public java.lang.String executeAction() throws Exception
 	{
-		this.File = this.__File == null ? null : system.proxies.FileDocument.initialize(getContext(), __File);
-
 		// BEGIN USER CODE
 		IContext context = this.context();
 		String mimeType = null;
